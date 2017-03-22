@@ -1,6 +1,6 @@
 #!/bin/sh
 tar --strip-components=1 -xf discord.tar.gz Discord
 mkdir -p export/share/applications
-sed -e 's/Icon=discord/Icon=com.discordapp.Client/' -e 's/\/usr\/share\/discord\/Discord/\/app\/bin\/Discord/' discord.desktop > export/share/applications/com.discordapp.Client.desktop
+sed -e 's/Icon=discord/Icon=com.discordapp.Client/' -e 's/\/usr\/share\/discord\/Discord/\/app\/bin\/discord/' discord.desktop > export/share/applications/com.discordapp.Client.desktop
 mkdir -p export/share/icons/hicolor/256x256/apps
 cp discord.png export/share/icons/hicolor/256x256/apps/com.discordapp.Client.png
