@@ -1,0 +1,7 @@
+all:
+	true
+
+install:
+	mkdir -p /app/bin
+	install apply_extra /app/bin
+	install discord.sh /app/bin/discord
