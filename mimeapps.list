@@ -1,3 +1,0 @@
-[Default Applications]
-x-scheme-handler/http=open-uri-portal.desktop
-x-scheme-handler/https=open-uri-portal.desktop
