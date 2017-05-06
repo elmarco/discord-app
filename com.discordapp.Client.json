@@ -56,14 +56,6 @@
                     "type": "file",
                     "path": "discord-Makefile",
                     "dest-filename": "Makefile"
-                },
-                {
-                    "type": "file",
-                    "path": "open-uri-portal.desktop"
-                },
-                {
-                    "type": "file",
-                    "path": "mimeapps.list"
                 }
             ]
         }
